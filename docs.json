@@ -1,0 +1,156 @@
+{
+  "title": "VACST 文档",
+  "eyebrow": "指南与参考资料",
+  "subtitle": "关于 VACST、飞行运营和 ACARS 的完整参考资料。",
+  "searchPlaceholder": "搜索文档……",
+  "featuredTitle": "有效文献",
+  "categories": [
+    {
+      "slug": "getting-started",
+      "title": "入门指南",
+      "subtitle": "从登录、加入航司到完成第一次飞行。",
+      "icon": "rocket",
+      "items": [
+        {
+          "slug": "platform-overview",
+          "title": "VACST 平台概览",
+          "subtitle": "了解 VACST 的主要功能、角色和飞行工作流。",
+          "path": "getting-started/platform-overview.md",
+          "icon": "book-open",
+          "featured": true,
+          "tags": ["VACST", "平台", "入门"]
+        },
+        {
+          "slug": "first-flight",
+          "title": "完成第一次飞行",
+          "subtitle": "从选择航班到提交 PIREP 的完整流程。",
+          "path": "getting-started/first-flight.md",
+          "icon": "check-circle-2",
+          "featured": true,
+          "tags": ["飞行", "PIREP", "入门"]
+        }
+      ]
+    },
+    {
+      "slug": "operations",
+      "title": "飞行运营",
+      "subtitle": "预订航班、管理航线、机队与飞行记录。",
+      "icon": "plane",
+      "items": [
+        {
+          "slug": "flight-workflow",
+          "title": "航班运营流程",
+          "subtitle": "航班预订、飞行执行、结束航班和记录结算。",
+          "path": "operations/flight-workflow.md",
+          "icon": "route",
+          "featured": true,
+          "tags": ["航班", "预订", "运营"]
+        },
+        {
+          "slug": "pirep-scoring",
+          "title": "PIREP 量化评分标准",
+          "subtitle": "各飞行阶段的量化指标、评分公式与通过门槛。",
+          "path": "operations/pirep-scoring.md",
+          "icon": "chart-no-axes-combined",
+          "featured": true,
+          "tags": ["PIREP", "评分", "量化"]
+        }
+      ]
+    },
+    {
+      "slug": "acars",
+      "title": "ACARS",
+      "subtitle": "桌面客户端、遥测上报和模拟器连接说明。",
+      "icon": "radio-tower",
+      "items": [
+        {
+          "slug": "telemetry",
+          "title": "ACARS 遥测规范",
+          "subtitle": "客户端上报字段、飞行阶段与服务端遥测证据。",
+          "path": "acars/telemetry.md",
+          "icon": "radio",
+          "featured": true,
+          "tags": ["ACARS", "遥测", "模拟器"]
+        },
+        {
+          "slug": "desktop-client",
+          "title": "VACST-ACARS 桌面客户端",
+          "subtitle": "Windows 客户端的登录、连接和飞行记录说明。",
+          "path": "acars/desktop-client.md",
+          "icon": "monitor",
+          "featured": false,
+          "tags": ["ACARS", "Windows", "客户端"]
+        }
+      ]
+    },
+    {
+      "slug": "accounts",
+      "title": "账户与权限",
+      "subtitle": "账户安全、OAuth 登录和航司成员权限。",
+      "icon": "shield-check",
+      "items": [
+        {
+          "slug": "oauth",
+          "title": "OAuth 2.0 与 PKCE",
+          "subtitle": "桌面应用登录、授权码和令牌交换规范。",
+          "path": "accounts/oauth.md",
+          "icon": "key-round",
+          "featured": false,
+          "tags": ["OAuth", "PKCE", "登录"]
+        }
+      ]
+    },
+    {
+      "slug": "certification",
+      "title": "平台认证",
+      "subtitle": "VACST 航空公司授权证书的签发、查询和使用说明。",
+      "icon": "badge-check",
+      "items": [
+        {
+          "slug": "airline-authorization-certificate",
+          "title": "航空公司授权证书说明",
+          "subtitle": "了解证书用途、编号、防伪验证、公开查询和维护规则。",
+          "path": "certification/airline-authorization-certificate.md",
+          "icon": "award",
+          "featured": true,
+          "tags": ["授权证书", "认证", "航空公司"]
+        }
+      ]
+    },
+    {
+      "slug": "compliance",
+      "title": "合规与审批",
+      "subtitle": "试用期航司运营审批标准、不达标认定与限制封禁规定。",
+      "icon": "gavel",
+      "items": [
+        {
+          "slug": "airline-probation-assessment",
+          "title": "试用期航司考核与限制封禁规定",
+          "subtitle": "低活跃度、无活跃航线、无有效飞行报告等不达标情形的认定标准与处置措施。",
+          "path": "compliance/airline-probation-assessment.md",
+          "icon": "scale",
+          "featured": true,
+          "tags": ["审批", "合规", "封禁", "试用期"]
+        },
+        {
+          "slug":"platform-user-agreement",
+          "title":"平台用户协议",
+          "subtitle":"有关用户使用VACST的相关协议及审定",
+          "path":"compliance/platform-user-agreement.md",
+          "icon":"scale",
+          "featured":true,
+          "tags":["用户", "航司", "创始人", "管理"]
+        },
+        {
+          "slug":"cooperation-access-management-measures",
+          "title":"合作准入管理办法",
+          "subtitle":"航空公司申请加入VACST合作后的处理相关规定",
+          "path":"compliance/cooperation-access-management-measures.md",
+          "icon":"scale",
+          "featured":true,
+          "tags":["管理", "合作", "申请", "试用"]
+        }
+      ]
+    }
+  ]
+}
