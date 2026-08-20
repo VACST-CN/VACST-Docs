@@ -54,6 +54,15 @@
           "icon": "chart-no-axes-combined",
           "featured": true,
           "tags": ["PIREP", "评分", "量化"]
+        },
+        {
+          "slug": "standard-operating-procedure",
+          "title": "标准运行程序（SOP）",
+          "subtitle": "VACST 飞行员、管理员及运行人员的基础运行规范与操作流程。",
+          "path": "operations/standard-operating-procedure.md",
+          "icon": "file-text",
+          "featured": true,
+          "tags": ["SOP", "标准", "规范", "运行"]
         }
       ]
     },
@@ -124,31 +133,31 @@
       "icon": "gavel",
       "items": [
         {
+          "slug": "platform-user-agreement",
+          "title": "平台用户协议",
+          "subtitle": "有关用户使用 VACST 平台服务的权利、义务及相关协议条款。",
+          "path": "compliance/platform-user-agreement.md",
+          "icon": "file-text",
+          "featured": true,
+          "tags": ["用户", "协议", "服务", "条款"]
+        },
+        {
+          "slug": "cooperation-access-management-measures",
+          "title": "合作准入管理办法",
+          "subtitle": "航空公司申请加入 VACST 合作的准入、试用审批与转正管理。",
+          "path": "compliance/cooperation-access-management-measures.md",
+          "icon": "clipboard-list",
+          "featured": true,
+          "tags": ["管理", "合作", "申请", "试用"]
+        },
+        {
           "slug": "airline-probation-assessment",
-          "title": "试用期航司考核与限制封禁规定",
+          "title": "试用期航司审批与限制封禁规定",
           "subtitle": "低活跃度、无活跃航线、无有效飞行报告等不达标情形的认定标准与处置措施。",
           "path": "compliance/airline-probation-assessment.md",
           "icon": "scale",
           "featured": true,
           "tags": ["审批", "合规", "封禁", "试用期"]
-        },
-        {
-          "slug":"platform-user-agreement",
-          "title":"平台用户协议",
-          "subtitle":"有关用户使用VACST的相关协议及审定",
-          "path":"compliance/platform-user-agreement.md",
-          "icon":"scale",
-          "featured":true,
-          "tags":["用户", "航司", "创始人", "管理"]
-        },
-        {
-          "slug":"cooperation-access-management-measures",
-          "title":"合作准入管理办法",
-          "subtitle":"航空公司申请加入VACST合作后的处理相关规定",
-          "path":"compliance/cooperation-access-management-measures.md",
-          "icon":"scale",
-          "featured":true,
-          "tags":["管理", "合作", "申请", "试用"]
         }
       ]
     }
